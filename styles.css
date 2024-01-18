@@ -1,0 +1,17 @@
+body {
+        
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    height: 100vh; /* Make sure the body covers the entire viewport height */
+    background: linear-gradient(to right, rgb(255, 255, 255) 50%, rgb(37, 93, 37) 50%); /* Use a linear gradient to create the split effect */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Use a default font */
+    color: rgb(0, 0, 0); /* Set the text color to white for better visibility */
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
